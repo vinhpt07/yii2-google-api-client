@@ -1,5 +1,5 @@
 {
-    "name": "ochuyao/google-api-client",
+    "name": "ochuyao/yii2-google-api-client",
     "description": "Google API Client",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -10,12 +10,18 @@
             "email": "vinhpt07@gmail.com"
         }
     ],
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/vinhpt07/yii2-google-api-client"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
-            "src\\": ""
+            "ochuyao\\": ""
         }
     }
 }

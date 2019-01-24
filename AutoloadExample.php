@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace ochuyao;
 
 /**
  * This is just an example.
